@@ -682,7 +682,7 @@ Two timelines can be mapped using timeline maps.""" .
 
 :atYear
     rdfs:label "at (year)";
-    rdfs:comment "A subproperty of :at, allowing to address a year (beginning of it for an instant, all of it for an interval)";
+    rdfs:comment "A subproperty of :at, allowing to address a year (beginning of it for an interval, all of it for an instant)";
     vs:term_status "stable";
     a owl:DatatypeProperty;
     rdfs:subPropertyOf :at;
@@ -690,7 +690,7 @@ Two timelines can be mapped using timeline maps.""" .
 
 :atYearMonth
     rdfs:label "at (year/month)";
-    rdfs:comment "A subproperty of :at, allowing to address a year/month (beginning of it for an instant, all of it for an interval)";
+    rdfs:comment "A subproperty of :at, allowing to address a year/month (beginning of it for an interval, all of it for an instant)";
     vs:term_status "stable";
     a owl:DatatypeProperty;
     rdfs:subPropertyOf :at;
@@ -698,7 +698,7 @@ Two timelines can be mapped using timeline maps.""" .
 
 :atDate
     rdfs:label "at (date)";
-    rdfs:comment "A subproperty of :at, allowing to address a date (beginning of it for an instant, all of it for an interval)";
+    rdfs:comment "A subproperty of :at, allowing to address a date (beginning of it for an interval, all of it for an instant)";
     vs:term_status "stable";
     a owl:DatatypeProperty;
     rdfs:subPropertyOf :at;
